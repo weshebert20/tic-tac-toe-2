@@ -15,16 +15,7 @@ Market: SF
 This week, we have been learning about writing functions, working with
 loops, and writing conditionals. We also learned about how HTML elements are styled and behave in the DOM.
 
-For this lab, you'll be building a tic tac toe game again, this time in HTML, CSS, and pure JavaScript, that can run in your browser!
-
-You can use your code from last time if you like, but take a good hard look at it and see what can improve.
-
-Can your code be:
-
- - more readable?
- - more logical?
- - more elegant/ cleaner/ prettier?
- - more modular and reusable?
+For this lab, you'll be building a tic tac toe game in HTML, CSS, and pure JavaScript, that can run in your browser!
 
 ## Exercise
 
@@ -39,7 +30,7 @@ Can your code be:
 
 ---
 
-- Since this is our first extended lab, here are some __tips/hints__ to get started:
+- Here are some __tips/hints__ to get started:
 
  - Construct a `index.html` to be your starting point on this
  project. Add your necessary HTML tags, including `script` and
