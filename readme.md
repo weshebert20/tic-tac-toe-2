@@ -67,7 +67,7 @@ For this lab, you'll be building a tic tac toe game in HTML, CSS, and pure JavaS
     * Hint: Determine a set of winning combinations. Check those
       combinations on the board contents after every move.
 - Add a scoreboard!
-- Add some basic animations using [CSS animate](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- Add some basic animations using [CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 
 
 #### Starter code
