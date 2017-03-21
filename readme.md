@@ -21,21 +21,13 @@ For this lab, you'll be building a tic tac toe game in HTML, CSS, and pure JavaS
 
 #### Requirements
 
+- Users should see a 3x3 grid for the tic-tac-toe board
 - A user should be able to click on different squares to make a move
 - Every click will alternate between marking an `X` and `O`
 - Upon marking of an individual cell, use JavaScript to add a class to
-  each cell to display separate colors
+  each cell to display separate colors (either background or text--both is better)
 - A cell should not be able to be replayed once marked
 - Add a reset button that will clear the contents of the board
-
-#### Updated Requirements
-
-- A user should see a 3x3 grid for the tic-tac-toe board
-- A user should be able to click on different squares to make a move
-- Every click will mark the letter `X` or `O` (does not need to alternate)
-- Upon marking of an individual cell, use JavaScript to add a class to
-  each cell to display a color (either background or text--both is better)
-- A user should be able to click a reset button that will clear the contents of the board
 
 ---
 
