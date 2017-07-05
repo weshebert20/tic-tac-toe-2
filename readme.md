@@ -21,6 +21,7 @@ For this lab, you'll be building a tic tac toe game in HTML, CSS, and pure JavaS
 
 #### Requirements
 
+- Solution should use **ONLY jQuery or vanilla JavaScript** - not some combination thereof
 - Users should see a 3x3 grid for the tic-tac-toe board
 - A user should be able to click on different squares to make a move
 - Every click will alternate between marking an `X` and `O`
