@@ -29,6 +29,7 @@ For this lab, you'll be building a tic tac toe game in HTML, CSS, and pure JavaS
   each cell to display separate colors (either background or text--both is better)
 - A cell should not be able to be replayed once marked
 - Add a reset button that will clear the contents of the board
+- Deploy your game online, using GitHub pages.  If you're not sure how to do this, refer back to [the earlier GitHub lesson](https://github.com/den-materials/git-branching-and-pages).
 
 ---
 
