@@ -3,7 +3,7 @@ $(document).ready(function () {
 	var clicks = [];
 
 
-	// box spots
+	// grid box spots
 
 	var box1 = $('#box1');
 	var box2 = $('#box2');
@@ -15,6 +15,7 @@ $(document).ready(function () {
 	var box8 = $('#box9');
 	var box9 = $('#box9');
 
+// Creating players one and two
 	var playerOne = function(){
 		$('td').on('click', function(){
 			$(this).text('O').attr('class', 'color1');
@@ -26,6 +27,7 @@ $(document).ready(function () {
 		});
 	};
 
+// Alternating player one and player two
 	$('td').on('click', function() {
 		if (clicks % 2 === 0){
 			playerOne();
@@ -34,6 +36,8 @@ $(document).ready(function () {
 		} 
     	clicks++; 
 
+
+    // checking for winner, going through each box and seeing if they equal
     	if (box1.hasClass('color1') && box2.hasClass('color1') && box3.hasClass('color1') ||
     	box4.hasClass('color1') && box5.hasClass('color1') && box6.hasClass('color1') ||
     	box7.hasClass('color1') && box8.hasClass('color1') && box9.hasClass('color1') ||
@@ -55,8 +59,12 @@ $(document).ready(function () {
 		if(clicks > 10){
 			alert("NOBODY WINS");
 		}
-    	
-    });
+    	});
+	// button that reloads the page
+	$('#resetButton').click(function() {
+    location.reload();
+});
+
 });
 	
 
