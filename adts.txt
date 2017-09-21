@@ -1,0 +1,4 @@
+What are some ADT's that would help DRY this code?
+
+1.) Putting each box in an object with a method
+2.) Simplifying the if/else statement that declares a winner
